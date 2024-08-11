@@ -23,3 +23,6 @@ include:
   - name: FinalPrivateMethod
   - name: JavadocLinkAsPlainText
   - name: RedundantCast
+  - name: CommentedOutCode
+  - name: DuplicatedCode
+  - name: RedundantTypeArguments
