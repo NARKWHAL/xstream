@@ -20,3 +20,6 @@ include:
   - name: RedundantClassCall
   - name: JavadocDeclaration
   - name: UnnecessaryUnicodeEscape
+  - name: FinalPrivateMethod
+  - name: JavadocLinkAsPlainText
+  - name: RedundantCast
