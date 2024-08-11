@@ -24,7 +24,5 @@ jobs:
         uses: JetBrains/qodana-action@v2024.1
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
-      - name: 'Qodana Baseline'
-        uses: JetBrains/qodana-action@main
         with:
           args: --baseline,qodana.sarif.json
